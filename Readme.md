@@ -41,6 +41,7 @@ bin/activemq stop
 Admin console ActiveMQ [http://v:8161/admin/](http://v:8161/admin/)
 
 Очереди: [http://v:8161/admin/queues.jsp](http://v:8161/admin/queues.jsp)
+
 Очередь destination 1: [http://v:8161/admin/browse.jsp?JMSDestination=destination1](http://v:8161/admin/browse.jsp?JMSDestination=destination1)
 
 ### Тестирование
