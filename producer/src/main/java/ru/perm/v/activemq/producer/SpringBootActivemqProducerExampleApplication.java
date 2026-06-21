@@ -1,13 +1,12 @@
-package ru.perm.v.activemq;
+package ru.perm.v.activemq.producer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootActivemqConsumerExampleApplication {
+public class SpringBootActivemqProducerExampleApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootActivemqConsumerExampleApplication.class, args);
+		SpringApplication.run(SpringBootActivemqProducerExampleApplication.class, args);
 	}
-
 }

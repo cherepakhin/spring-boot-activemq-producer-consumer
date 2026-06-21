@@ -1,7 +1,7 @@
-package com.asbnotebook.rest;
+package ru.perm.v.activemq.producer.rest;
 
-import com.asbnotebook.dto.Student;
-import com.asbnotebook.jms.StudentProducer;
+import ru.perm.v.activemq.producer.dto.Student;
+import ru.perm.v.activemq.producer.jms.StudentProducer;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.slf4j.Logger;

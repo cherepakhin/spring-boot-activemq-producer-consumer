@@ -1,4 +1,4 @@
-package com.asbnotebook.dto;
+package ru.perm.v.activemq.producer.dto;
 
 import lombok.EqualsAndHashCode;
 import lombok.Getter;

@@ -1,8 +1,7 @@
-package ru.perm.v.activemq.dto;
+package ru.perm.v.activemq.consumer.dto;
 
 import lombok.Getter;
 import lombok.Setter;
-import lombok.ToString;
 
 import java.util.Objects;
 
