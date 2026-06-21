@@ -1,16 +1,16 @@
 ### Spring Boot and ActiveMQ
 
 Приемник сообщений из очереди:
-[spring-boot-activemq-consumer-example](./spring-boot-activemq-consumer-example)
+[consumer](./consumer)
 
 Отправитель сообщения в очередь:
-[spring-boot-activemq-producer-example](./spring-boot-activemq-producer-example)
+[producer](./producer)
 
 Порядок проведения теста:
- 1. Запустить приемник [run_consumer.sh](./spring-boot-activemq-consumer-example/run_consumer.sh)
- 2. Запустить отправитель [run_producer.sh](./spring-boot-activemq-consumer-example/run_producer.sh)
- 3. Отправить несколько сообщений [send_10.sh](./spring-boot-activemq-consumer-example/send_10.sh)
- 4. Результаты можно в логах консоли получателя [spring-boot-activemq-consumer-example](./spring-boot-activemq-consumer-example):
+ 1. Запустить приемник [run_consumer.sh](./consumer/run_consumer.sh)
+ 2. Запустить отправитель [run_producer.sh](./consumer/run_producer.sh)
+ 3. Отправить несколько сообщений [send_10.sh](./consumer/send_10.sh)
+ 4. Результаты можно в логах консоли получателя [consumer](./consumer):
     
     ````text
     ....
