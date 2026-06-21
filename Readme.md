@@ -43,10 +43,14 @@ Admin console ActiveMQ [http://v:8161/admin/](http://v:8161/admin/)
 Очереди: [http://v:8161/admin/queues.jsp](http://v:8161/admin/queues.jsp)
 Очередь destination 1: [http://v:8161/admin/browse.jsp?JMSDestination=destination1](http://v:8161/admin/browse.jsp?JMSDestination=destination1)
 
+### Тестирование
+
 Посылка 100 сообщениЙ:
 
 ````shell
 http POST http://192.168.1.79:8002/student/send_many/100
 ````
 
-где `192.168.1.79` - IP хоста приложения, где запущен spring-boot продюсер.
+Где:
+http  - [httpie](https://httpie.io/)
+`192.168.1.79` - IP хоста приложения, где запущен spring-boot продюсер.
