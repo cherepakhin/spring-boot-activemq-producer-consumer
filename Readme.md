@@ -9,7 +9,7 @@
 Порядок проведения теста:
  1. Запустить приемник [run_consumer.sh](./consumer/run_consumer.sh)
  2. Запустить отправитель [run_producer.sh](./consumer/run_producer.sh)
- 3. Отправить несколько сообщений [send_10.sh](./consumer/send_10.sh)
+ 3. Отправить несколько сообщений [send_10.sh](./producer/send_10.sh)
  4. Результаты можно в логах консоли получателя [consumer](./consumer):
     
     ````text
