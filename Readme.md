@@ -1,4 +1,4 @@
-### Spring Boot and ActiveMQ
+### Spring Boot и Apache ActiveMQ
 
 Приемник сообщений из очереди:
 [consumer](./consumer)
