@@ -18,3 +18,35 @@
     ....
     ````
 
+### Об ActiveMQ
+
+Установлен в v:/home/vasi/po/activemq/apache-activemq-6.2.6
+
+Об установке в [Настройка ActiveMQ в Linux](https://v.perm.ru/index.php/instrumenty-devops/activemq-setup)
+
+Управление:
+
+````shell
+bin/activemq start
+````
+
+````shell
+bin/activemq console
+````
+
+````shell
+bin/activemq stop
+````
+
+Admin console ActiveMQ [http://v:8161/admin/](http://v:8161/admin/)
+
+Очереди: [http://v:8161/admin/queues.jsp](http://v:8161/admin/queues.jsp)
+Очередь destination 1: [http://v:8161/admin/browse.jsp?JMSDestination=destination1](http://v:8161/admin/browse.jsp?JMSDestination=destination1)
+
+Посылка 100 сообщениЙ:
+
+````shell
+http POST http://192.168.1.79:8002/student/send_many/100
+````
+
+где `192.168.1.79` - IP хоста приложения, где запущен spring-boot продюсер.
