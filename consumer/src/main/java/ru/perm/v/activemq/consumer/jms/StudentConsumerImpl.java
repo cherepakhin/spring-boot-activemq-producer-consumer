@@ -47,4 +47,9 @@ public class StudentConsumerImpl implements StudentConsumer {
 	public List<Student> getListStudents() {
 		return listStudents;
 	}
+
+	@Override
+	public void clearStudents() {
+		listStudents = new ArrayList<>();
+	}
 }

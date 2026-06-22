@@ -66,3 +66,15 @@ $ sudo netstat -tulnp | grep 8161
 [sudo] password for vasi:          
 tcp6       0      0 :::8161                 :::*                    LISTEN      2523385/java
 ````
+
+Показать все записи:
+
+````shell
+http :8001/student/getLast
+````
+
+Стереть принятые данные:
+
+````shell
+http POST :8001/student/clearAll
+````
