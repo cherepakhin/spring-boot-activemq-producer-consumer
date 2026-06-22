@@ -11,6 +11,12 @@ import org.springframework.jms.support.converter.MappingJackson2MessageConverter
 import org.springframework.jms.support.converter.MessageConverter;
 import org.springframework.jms.support.converter.MessageType;
 
+/**
+ * Класс конфигурации для ActiveMQ
+ *
+ * Иначе ошибка: A component required a bean named 'jmsFactory' that could not be found.
+ * Action: Consider defining a bean named 'jmsFactory' in your configuration.
+ */
 @Configuration
 public class StudentConfig {
 
