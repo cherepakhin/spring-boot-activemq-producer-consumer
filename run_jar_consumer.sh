@@ -1,1 +1,2 @@
+./mvnw clean package
 /usr/lib/jvm/java-11-openjdk-amd64/bin/java -jar consumer/target/spring-boot-activemq-consumer-example-1.0-SNAPSHOT.jar
