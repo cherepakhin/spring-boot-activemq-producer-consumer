@@ -1,10 +1,10 @@
-package ru.perm.v.activemq.consumer.jms;
+package ru.perm.v.activemq.dto.consumer.jms;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.jms.annotation.JmsListener;
 import org.springframework.stereotype.Component;
-import ru.perm.v.activemq.consumer.dto.Student;
+import ru.perm.v.activemq.dto.Student;
 
 import java.io.IOException;
 

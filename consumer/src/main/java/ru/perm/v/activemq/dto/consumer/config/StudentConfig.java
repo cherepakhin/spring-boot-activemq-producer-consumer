@@ -1,4 +1,4 @@
-package ru.perm.v.activemq.consumer.config;
+package ru.perm.v.activemq.dto.consumer.config;
 
 import javax.jms.ConnectionFactory;
 

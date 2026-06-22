@@ -1,0 +1,1 @@
+/usr/lib/jvm/java-1.8.0-openjdk-amd64/bin/java -jar producer/target/spring-boot-activemq-producer-example-1.0-SNAPSHOT.jar

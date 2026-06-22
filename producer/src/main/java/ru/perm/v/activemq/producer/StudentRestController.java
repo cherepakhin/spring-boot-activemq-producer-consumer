@@ -1,7 +1,5 @@
-package ru.perm.v.activemq.producer.rest;
+package ru.perm.v.activemq.producer;
 
-import ru.perm.v.activemq.producer.dto.Student;
-import ru.perm.v.activemq.producer.jms.StudentProducer;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.slf4j.Logger;
@@ -9,6 +7,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
+import ru.perm.v.activemq.dto.Student;
 
 @RestController
 @RequestMapping("/student")

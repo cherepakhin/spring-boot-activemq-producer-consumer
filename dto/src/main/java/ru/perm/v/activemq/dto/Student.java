@@ -1,4 +1,4 @@
-package ru.perm.v.activemq.consumer.dto;
+package ru.perm.v.activemq.dto;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -8,9 +8,18 @@ import java.util.Objects;
 @Getter
 @Setter
 public class Student {
-	
+
 	private Integer id;
 	private String name;
+
+	public Student() {
+	}
+
+	public Student(Integer i, String n) {
+		this();
+		id = i;
+		name = n;
+	}
 
 	@Override
 	public boolean equals(Object o) {
