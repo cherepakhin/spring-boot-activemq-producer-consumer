@@ -1,14 +1,13 @@
-### Spring Boot и Apache ActiveMQ
+## Spring Boot и Apache ActiveMQ
 
-Приемник сообщений из очереди:
-[consumer](./consumer)
+### Модули проекта
+Модель данных для передачи в [dto](./dto)<br/>
+Отправитель сообщения в очередь в [producer](./producer)<br/>
+Приемник сообщений из очереди в [consumer](./consumer)<br/>
 
-Отправитель сообщения в очередь:
-[producer](./producer)
-
-Порядок проведения теста:
+### Порядок проведения теста:
  1. Запустить приемник [run_consumer.sh](./consumer/run_consumer.sh)
- 2. Запустить отправитель [run_producer.sh](./consumer/run_producer.sh)
+ 2. Запустить отправитель [run_producer.sh](./producer/run_producer.sh)
  3. Отправить несколько сообщений [send_10.sh](./producer/send_10.sh)
  4. Результаты можно в логах консоли получателя [consumer](./consumer):
     
