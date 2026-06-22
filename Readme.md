@@ -1,5 +1,7 @@
 ## Spring Boot и Apache ActiveMQ
 
+__Java 11__
+
 ### Модули проекта
 Модель данных для передачи в [dto](./dto)<br/>
 Отправитель сообщения в очередь в [producer](./producer)<br/>

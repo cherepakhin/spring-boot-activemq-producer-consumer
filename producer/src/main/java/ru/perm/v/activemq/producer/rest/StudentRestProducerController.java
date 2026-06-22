@@ -1,4 +1,4 @@
-package ru.perm.v.activemq.producer;
+package ru.perm.v.activemq.producer.rest;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -8,15 +8,16 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 import ru.perm.v.activemq.dto.Student;
+import ru.perm.v.activemq.producer.jms.StudentProducer;
 
 @RestController
 @RequestMapping("/student")
-public class StudentRestController {
+public class StudentRestProducerController {
 
-	Logger logger = LoggerFactory.getLogger(StudentRestController.class);
+	Logger logger = LoggerFactory.getLogger(StudentRestProducerController.class);
 
 	@Autowired
-	StudentProducer studentProducer;
+    StudentProducer studentProducer;
 
 	@Value("${activemq.destination}")
 	private String queueStudent;

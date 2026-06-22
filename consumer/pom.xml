@@ -12,6 +12,11 @@
 	<name>spring-boot-activemq-consumer-example</name>
 	<description>spring boot CONSUMER activemq example</description>
 
+	<properties>
+		<java.version>11</java.version>
+		<maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
+	</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>ru.perm.v.activemq</groupId>
@@ -26,7 +31,15 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<mainClass>ru.perm.v.activemq.consumer.SpringBootActivemqConsumerApplication</mainClass>
+				</configuration>
+			</plugin>
 		</plugins>
+
 	</build>
 
 </project>
