@@ -1,0 +1,1 @@
+ava -cp target/classes:~/.m2/repository/com/example/my-lib/1.0.0/my-lib-1.0.0.jar com.example.MainClass
