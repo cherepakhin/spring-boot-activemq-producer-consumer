@@ -21,7 +21,7 @@ public class StudentConsumerRestController {
 
 	@GetMapping("/getLast")
 	List<Student> getLast() throws Exception {
-		log.info("[GET] /student/getLast");
+		log.info("[GET from consumer] /student/getLast");
 		if(studentConsumer == null) {
 			throw new Exception("Student consumer is not initialized");
 		}
